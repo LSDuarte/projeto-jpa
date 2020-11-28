@@ -15,12 +15,12 @@ public class TestaRelacionamentoClienteConta {
 		EntityManager em = fabrica.createEntityManager();
 		
 		Conta conta = new Conta();
-		conta.setId(1L);
+		conta.setId(2L);
 		
 		Cliente cliente = new Cliente();
-		cliente.setNome("Larissa");
-		cliente.setEndereco("Rua 123");
-		cliente.setProfissao("Analista Dev");
+		cliente.setNome("Luiz Claudio");
+		cliente.setEndereco("Rua 484");
+		cliente.setProfissao("Barman");
 		cliente.setConta(conta);
 		
 		em.getTransaction().begin();

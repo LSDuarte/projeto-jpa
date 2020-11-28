@@ -21,7 +21,7 @@ public class TestaRelacionamentoMovimentacaoCategoria {
 		Categoria c2 = new Categoria("Negócios");
 		
 		Conta conta = new Conta();
-		conta.setId(3L);
+		conta.setId(1L);
 		
 		Movimentacao movimentacao1 = new Movimentacao();
 		movimentacao1.setData(LocalDateTime.now());

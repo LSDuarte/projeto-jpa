@@ -17,6 +17,11 @@ public class Categoria {
 	@Deprecated
 	public Categoria() {
 	}
+	
+	@Override
+	public String toString() {
+		return nome + " - " + id;
+	}
 
 	public Categoria(String nome) {
 		super();
